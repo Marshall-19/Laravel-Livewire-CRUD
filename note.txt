@@ -1,0 +1,13 @@
+LARAVEL + LIVEWIRE
+1. INSTALL LARAVEL 8
+composer create-project --prefer-dist laravel/laravel myweb
+2. INSTALL JETSTREAM (auth)
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+npm isntall && npm run dev
+php artisan migrate
+3.buat model
+php artisan make:model namamodel
+4. livewire components
+php artisan make:livewire
+php artisan make:livewire ListPost
